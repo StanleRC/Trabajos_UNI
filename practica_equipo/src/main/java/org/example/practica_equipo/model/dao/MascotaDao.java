@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MascotaDao implements Dao<Mascota, Integer>{
+
     @Override
     public boolean create(Mascota entidad) {
         String sql = "INSERT INTO MASCOTAS(nombre, especie, edad, personalidad, foto, vacunada) VALUES(?, ?, ?, ?, ?, ?)";
