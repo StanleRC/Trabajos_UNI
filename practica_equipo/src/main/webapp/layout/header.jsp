@@ -10,11 +10,10 @@
     <link href="assets/css/bi/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column min-vh-100">
-<!-- barra de navegación -->
 <header>
     <nav class="navbar bg-black navbar-dark navbar-expand-lg mt-auto">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Veterinaria</a>
+            <a class="navbar-brand" href="#">Control Escolar</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,10 +25,7 @@
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mascotas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dueños</a>
+                        <a class="nav-link active" aria-current="page" href="#">Alumnos</a>
                     </li>
                 </ul>
 
@@ -43,10 +39,8 @@
     </nav>
 </header>
 
-<!-- contenido principal -->
 <main class="flex-grow-1 mt-5 mb-5">
     <div class="container">
         <div class="row">
             <div class="col">
-
 
