@@ -15,7 +15,7 @@
         <c:choose>
             <c:when test="${empty listaAlumnos}">
                 <div class="alert alert-info text-center mt-4" role="alert">
-                    <i class="bi bi-info-circle-fill"></i> No hay alumnos registrados.
+                    <i class="bi bi-info-circle-fill"></i> Aun hay alumnos registrados.
                 </div>
             </c:when>
 
