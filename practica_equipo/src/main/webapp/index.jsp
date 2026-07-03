@@ -2,6 +2,8 @@
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <%@ include file="layout/header.jsp" %>
 
-
+<%
+    response.sendRedirect(request.getContextPath() + "/alumno");
+%>
 
 <%@ include file="layout/footer.jsp" %>
